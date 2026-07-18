@@ -14,7 +14,7 @@ class SimpleCalculator:
     def mul(self, *args):
         if not all(args):
             raise ValueError
-        return )reduce(operator.mul, args)
+        return reduce(operator.mul, args)
 
     def div(self, a, b):
         try:
