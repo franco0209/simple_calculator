@@ -6,7 +6,7 @@ from functools import reduce
 
 class SimpleCalculator:
     def add(self, *args):
-        return sum(args) +1
+        return sum(args)+1
 
     def sub(self, a, b):
         return a - b
